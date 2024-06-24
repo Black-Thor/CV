@@ -1,6 +1,6 @@
 title: Stéphane D.  # Add a space after the period
 
-logo: 1.png # Use a relative path to logo image 
+logo: ghost.png # Use a relative path to logo image 
 
 description: SRE
 
@@ -13,4 +13,4 @@ plugins:
 
 #google_site_verification: "nE-yBDoWCj5TcTXXNcRBPPiJZxpC6pw5dEdeRo6kTCk" # Verify ownership through Search Console  
 
-#email: albertoogy@gmail.com # Allow visitors to contact you
+#email: stephane.duboze@gmail.com # Allow visitors to contact you
