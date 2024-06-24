@@ -6,7 +6,7 @@ description: SRE
 
 show_downloads: true # Fix spelling
 
-theme: jekyll-theme-minimal 
+theme: modern-resume-theme
 
 plugins:
   - jekyll-seo-tag # Add SEO plugin
