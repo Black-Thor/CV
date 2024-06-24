@@ -6,15 +6,10 @@ description: SRE
 
 show_downloads: true # Fix spelling
 
-#theme: jekyll-theme-minimal
-remote_theme: hydecorp/hydejack@v9.1.6
+theme: jekyll-theme-minimal
+#remote_theme: hydecorp/hydejack@v9.1.6
 plugins:
-  - jekyll-seo-tag # Add SEO plugin
-  - jekyll-remote-theme 
-  - jekyll-include-cache
-
-
-
-#google_site_verification: "nE-yBDoWCj5TcTXXNcRBPPiJZxpC6pw5dEdeRo6kTCk" # Verify ownership through Search Console  
+#  - jekyll-remote-theme 
+#  - jekyll-include-cache
 
 #email: stephane.duboze@gmail.com # Allow visitors to contact you
