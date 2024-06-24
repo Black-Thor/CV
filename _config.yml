@@ -6,7 +6,7 @@ description: SRE
 
 show_downloads: true # Fix spelling
 
-theme: jekyll-theme-centos 
+theme: jekyll-theme-hydejack
 #remote_theme: pages-themes/merlot@v0.2.0
 plugins:
   - jekyll-seo-tag # Add SEO plugin
