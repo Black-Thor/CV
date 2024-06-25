@@ -214,3 +214,5 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   .downloads { width: 99%; }
   .downloads li, .downloads li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+@media screen and (min-width: 960px) { .wrapper { width: 1200px; margin: 0 auto; }
+  section { width: 900px; float: right; padding-bottom: 50px; } }
