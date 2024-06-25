@@ -21,6 +21,9 @@ The "Infra Game" project is part of the YDAYS educational initiative organized b
 
 As project manager on this ambitious project, I led a multidisciplinary team, coordinating development, deployment, infrastructure management, and cybersecurity. My responsibilities included defining strategic objectives, planning project milestones, and overseeing development and testing activities.
 
+![Main_page](./assets/img/Infragame/analytics.png)
+
+
 ### Skills involved
 
 - Project management: Planning, coordination, and monitoring of development and deployment phases.
