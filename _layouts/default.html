@@ -34,6 +34,18 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+        
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="https://black-thor.github.io/devsecops-docu/">View my documentation <small>Black-Thor/devsecops-docu</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -42,11 +54,15 @@
           {% else %}
           <li> <a href="./Project.html">View On <strong>Project</strong></a></li>
           {% endif %}
+          {% if page.url == "/Skills.html" %}
+          <li> <a href="./">View On <strong>Resume</strong></a></li>
+          {% else %}
+          <li><a href="./Skills.html">View On <strong>skills</strong></a></li>
+          {% endif %}
           <li><a href="https://www.linkedin.com/in/st%C3%A9phane-duboze/">View On <strong>Linkedin</strong></a></li>
-          <li><a href="https://black-thor.github.io/devsecops-docu/">View On <strong> Auto-docs</strong></a></li>
         </ul>
         {% endif %}
-      </header>
+      </header>      
       <section>
 
       {{ content }}

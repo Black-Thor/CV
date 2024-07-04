@@ -7,7 +7,7 @@ Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cyb
 ## 🎓 Education	  		
 - **M.Sc.**, Cloud, Security & Infrastructure expert	| <a href="https://www.ynov.com/formations/informatique/mastere-expert-en-cloud-securite-infrastructure" target="_blank">Lyon Ynov</a> (_SEP 2021 - SEP 2024_)
 - **M.Sc.**, Cybersecurity expert	| <a href="https://www.ynov.com/formations/cybersecurite/mastere-consultant-en-cybersecurite" target="_blank">Lyon Ynov</a> (_SEP 2021 - SEP 2024_)        		
-
+- **HND** , Digital systems in IT and networks  | <a>High school Edouard Branly Lyon </a> (_AUG 2018 - SEP 2021_)     
 
 ## 💼 Work experience 
 **SRE / IT application manager @ <a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September2024)**
@@ -33,70 +33,27 @@ As an Application Manager/DevOps and System Engineer at Worldline, I was respons
 - **Operating Systems**:
   - Use of operating systems such as Redhat/CentOS.
 
-**Skills**:
+**Full Stack Developer and Technical Project Manager @ <a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2021 - September2024)**
 
-- IT infrastructure management
-- CI/CD pipeline optimization
-- Automation with Ansible and Chef compliance
-- Monitoring and supervision with ELK, Grafana, Zabbix, Jira, and ITSM
-- Systems administration under Redhat/CentOS
-- Integration of green IT
+**Responsibilities**:
+- **Development of React modules and graphical templates**
+  - Designed and implemented various modules and graphical templates using React, accompanied by comprehensive technical documentation.
+- **Deployment of Nextcloud** 
+  - Installed and configured a Nextcloud instance to enhance file management and sharing within the company.
+- **Creation of an inter-infrastructure communication tool**
+  - Developed a tool for sending SMS and emails based on company-defined criteria to improve internal communication and operational processes.
+- **Audit of  switched telephone network (RTC) lines** 
+  - Conducted an audit of RTC lines to prepare their migration to fiber and 4G networks as part of the modernization of electrical infrastructures and the improvement of their monitoring.
 
-This experience has allowed me to develop deep expertise in managing complex infrastructures and optimizing automated processes while ensuring the reliability and efficiency of IT systems for various clients.
+**Key Results**:
 
-
-
-#### Technical Skills:
-- Programming Languages: 
-  - ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-  - ![YAML](https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml&logoColor=white) 
-
-- Cloud Platforms: 
-  - ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) 
-  - ![Google Cloud Platform (GCP)](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-- Infrastructure as Code (IaC):
-  - ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-  - ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white) 
-
-- CI/CD: Skilled in setting up and maintaining CI/CD pipelines using 
-  - ![GitLab CI](https://img.shields.io/badge/GitLab-CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-  - ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) 
-  - ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-
-- Monitoring and Logging: 
-  - ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-  - ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-  - ![ELK Stack](https://img.shields.io/badge/ELK-005571?style=for-the-badge&logo=elastic-stack&logoColor=white)
-  - ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white) 
-  - ![Wazuh](https://img.shields.io/badge/Wazuh-004680?style=for-the-badge&logo=wazuh&logoColor=white) 
-
-- Automation and Scripting: 
-  - ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-- Containerization and hosting: 
-  - ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  - ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) 
-  - ![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-  - ![NODEJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-  - ![Linux command line](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-- Databases: 
-  - ![MYSQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-  - ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-- Security: 
-  - Strong understanding of cybersecurity principles
-  - Network security
-  - Best practices for securing cloud infrastructure and applications
-  - ![DAST](https://img.shields.io/badge/DAST-blue?style=for-the-badge
-  ) / ![SAST](https://img.shields.io/badge/SAST-004680?style=for-the-badge&logo=SAST&logoColor=white)
-
-
-
-
-## ✍️ Articles & Blogs
-
-## 📚 References
+**Improved operational efficiency**
+- The implementation of React modules and the communication tool streamlined internal processes and enhanced team responsiveness.
+**Optimized file management** 
+- The deployment of Nextcloud facilitated sharing and collaboration among team members.
+**Infrastructure modernization** 
+- The RTC line audit contributed to the transition to more advanced technologies, increasing the reliability and performance of the company’s electrical infrastructures.
+These projects not only enriched my technical skills but also strengthened my ability to work in a team and manage projects from start to finish.
 
 ## 📞 Contact
+My email : stephane857@live.fr
