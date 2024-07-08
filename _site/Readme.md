@@ -10,7 +10,8 @@ Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cyb
 - **HND** , Digital systems in IT and networks  | <a>High school Edouard Branly Lyon </a> (_AUG 2018 - SEP 2021_)     
 
 ## 💼 Work experience 
-**SRE / IT application manager @ <a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September2024)**
+**SRE / IT application manager @<a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September2024)**
+
 As an Application Manager/DevOps and System Engineer at Worldline, I was responsible for managing infrastructures and turnkey solutions for several key clients of the company, including the Legal and Administrative Information Department, the Administrative and Financial Services Department, and the public service concession Bloctel for the Directorate General for Competition, Consumer Affairs, and Fraud Control.
 
 **Responsibilities**:
@@ -33,9 +34,11 @@ As an Application Manager/DevOps and System Engineer at Worldline, I was respons
 - **Operating Systems**:
   - Use of operating systems such as Redhat/CentOS.
 
-**Full Stack Developer and Technical Project Manager @ <a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2021 - September2024)**
+**Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2021 - September2024)**
 
-**Responsibilities**:
+As a Full Stack Developer and Technical Project Manager at Enedis (formerly ERDF), I was responsible for the design and implementation of various technical solutions to improve the company's operational efficiency and modernize its infrastructure.
+
+**Responsibilities**
 - **Development of React modules and graphical templates**
   - Designed and implemented various modules and graphical templates using React, accompanied by comprehensive technical documentation.
 - **Deployment of Nextcloud** 

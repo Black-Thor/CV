@@ -14,12 +14,27 @@ Welcome to the DevOps Projects repository! This repository showcases various pro
 This repository contains several projects demonstrating various aspects of DevOps. Each project is organized into its own directory with detailed instructions on how to set up and use the project. Below is an overview of the included projects:
 
 ## School project 1: Infragame
+### Project Manager 
 
-The "Infra Game" project is part of the YDAYS educational initiative organized by Ynov, aimed at developing an innovative automated video game deployment system for students. Our main objective was to create a web platform integrated with a continuous integration and deployment chain (CI/CD), using Kubernetes containers and an API to orchestrate the whole process.
+The "Infra Game" project is part of the YDAYS educational initiative organized by Ynov, aimed at developing an innovative automated video game deployment system for students. 
+Our main objective was to create a web platform integrated with a continuous integration and deployment chain (CI/CD), using Kubernetes containers and an API to orchestrate the whole process. 
 
 ![Main_page](./assets/img/Infragame/Game.png)
 
-As project manager on this ambitious project, I led a multidisciplinary team, coordinating development, deployment, infrastructure management, and cybersecurity. My responsibilities included defining strategic objectives, planning project milestones, and overseeing development and testing activities.
+As a project manager, my responsibilities encompassed:
+
+- Leading a multidisciplinary team
+> 3 in cloud and infrastructure , 3 in web development , 3 in cybersecurity
+- Facilitating effective communication across different teams
+> 3 team in the project and team for the infrastructure management 
+- Coordinating and streamlining development processes
+- Verifying and approving each deployment
+- Overseeing cybersecurity measures
+- Defining strategic objectives
+- Planning project milestones
+- Overseeing development and testing activities
+
+These duties ensured the successful execution and delivery of projects, while maintaining high standards of quality and security.
 
 ![Main_page](./assets/img/Infragame/analytics.png)
 
