@@ -19,10 +19,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="DevOps Projects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"SRE","headline":"DevOps Projects","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/flower.png"}},"url":"http://localhost:4000/Project.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"SRE","headline":"DevOps Projects","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/flower.gif"}},"url":"http://localhost:4000/Project.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=7b115d361ba8025603e76a6831da83ff8637e87b">
+    <link rel="stylesheet" href="/assets/css/style.css?v=5c6e926160106dededa21ad38239893b49081ca2">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -44,7 +44,7 @@
         <h1><a href="http://localhost:4000/">Stéphane D.</a></h1>
 
         
-          <img src="/flower.png" alt="Logo" />
+          <img src="/flower.gif" alt="Logo" />
         
 
         <p>SRE</p>
@@ -182,6 +182,77 @@ Our main objective was to create a web platform integrated with a continuous int
   <li>AI integration: Collaboration with AI specialists to integrate Rocket League’s game analysis models.</li>
   <li>Security and performance: Implementing best practices in security and performance optimization to ensure an optimal user experience.</li>
   <li>Monitoring and maintenance: Continuous monitoring of the infrastructure to quickly identify and resolve any problems.</li>
+</ul>
+
+<h2 id="project-weplants-infrastructure">Project: WePlants Infrastructure</h2>
+
+<p>The “WePlants” project is a cloud-based infrastructure aimed at ensuring the scalable, secure, and high-performance deployment of web applications. This infrastructure leverages Amazon Web Services (AWS) to deliver robust solutions for web services, API management, database hosting, and monitoring. The architecture integrates several key AWS services, each playing a critical role in maintaining the application’s availability, security, and scalability.This infrastructure was built as part of my end-of-study project. The aim was to set up an infrastructure resilient to failures and capable of managing the various cybersecurity risks.</p>
+
+<p><img src="/assets/img/PFE/weplants.png" alt="Weplants_archi" /></p>
+
+<h2 id="architecture-components">Architecture Components</h2>
+<h3 id="users-and-domain-management">Users and Domain Management:</h3>
+
+<ul>
+  <li>Users interact with the application through a domain managed by AWS Route 53, which provides DNS and domain name management services.</li>
+  <li>The architecture supports both technical and non-technical users, ensuring a secure and seamless user experience.</li>
+</ul>
+
+<h3 id="load-balancing-and-security">Load Balancing and Security:</h3>
+
+<ul>
+  <li>AWS Load Balancer distributes incoming traffic across multiple web and application servers to ensure high availability and reliability.</li>
+  <li>AWS Firewall provides an additional layer of security, controlling and monitoring access to the infrastructure.</li>
+</ul>
+
+<h3 id="network-segmentation">Network Segmentation:</h3>
+
+<ul>
+  <li>The infrastructure is divided into public and private subnets within a Virtual Private Cloud (VPC), enhancing security by isolating critical resources.</li>
+  <li>A Bastion host within the public subnet provides secure SSH access to resources in the private subnet, while a NAT Gateway enables secure internet access for servers in the private subnet.</li>
+</ul>
+
+<h3 id="compute-resources">Compute Resources:</h3>
+
+<ul>
+  <li>Auto-scaling groups manage the scaling of web, API, and application servers, ensuring that the infrastructure adapts dynamically to changing workloads.</li>
+  <li>These servers are hosted within private subnets, protected from direct internet access.</li>
+</ul>
+
+<h3 id="database-management">Database Management:</h3>
+
+<ul>
+  <li>Amazon RDS (Relational Database Service) is used for database management, offering automated backups, software patching, and scaling capabilities.</li>
+  <li>The architecture includes an Amazon RDS Multi-AZ deployment for enhanced availability and failover support. (Not Implemented)</li>
+</ul>
+
+<h3 id="security-and-monitoring">Security and Monitoring:</h3>
+
+<ul>
+  <li>AWS CloudTrail and CloudWatch services are integrated for logging, monitoring, and compliance analysis, enabling continuous monitoring of API usage and system performance.</li>
+  <li>GuardDuty and SIEM Wazuh are deployed for intrusion detection and security monitoring, safeguarding the infrastructure against potential threats.</li>
+</ul>
+
+<h3 id="data-storage-and-backup">Data Storage and Backup:</h3>
+
+<ul>
+  <li>The architecture utilizes Amazon S3 for object storage and backup, ensuring that critical data is securely stored and easily retrievable.</li>
+  <li>An Elastic File System (EFS) is implemented for scalable file storage, providing shared access to files across multiple instances.</li>
+</ul>
+
+<h3 id="encryption-and-key-management">Encryption and Key Management:</h3>
+
+<ul>
+  <li>AWS Cloud HSM (Hardware Security Module) is employed for secure key management, supporting encryption and decryption operations for sensitive data. (Not Implemented)</li>
+</ul>
+
+<h3 id="key-responsibilities-and-skills">Key Responsibilities and Skills</h3>
+<ul>
+  <li>Infrastructure Management: Design and deployment of AWS-based infrastructure, ensuring scalability, security, and reliability.</li>
+  <li>Security Implementation: Configuration of firewalls, intrusion detection systems, and secure access protocols to protect the infrastructure.</li>
+  <li>Monitoring and Compliance: Use of AWS CloudTrail and CloudWatch for monitoring system performance, API usage, and compliance with security policies.</li>
+  <li>Database Administration: Management of Amazon RDS instances, including backups, scaling, and failover configurations.</li>
+  <li>Data Management: Implementation of S3 for backup storage and EFS for shared file storage across instances.</li>
 </ul>
 
 
