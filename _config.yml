@@ -11,5 +11,5 @@ theme: jekyll-theme-minimal
 plugins:
 #  - jekyll-remote-theme 
 #  - jekyll-include-cache
-
+   - jekyll-seo-tag
 #email: stephane.duboze@gmail.com # Allow visitors to contact you
