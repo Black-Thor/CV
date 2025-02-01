@@ -10,7 +10,6 @@
 This experience has allowed me to develop deep expertise in managing complex infrastructures and optimizing automated processes while ensuring the reliability and efficiency of IT systems for various clients.
 
 
-
 #### Technical Skills:
 - Programming Languages , Automation and Scripting: 
 

@@ -22,3 +22,24 @@
   width: 150px;
   height: 150px;
 }
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education-list .title {
+  font-weight: bold;
+}
+
+.education-list .date {
+  text-align: right;
+  white-space: nowrap;
+}

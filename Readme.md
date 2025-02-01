@@ -5,9 +5,26 @@
 Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cybersecurity with 3 years of experience as a Site Reliability Engineer (SRE). Proficient in DevOps practices, cloud computing, infrastructure management, and cybersecurity. Skilled in automation, system performance optimization, and implementing secure, scalable systems. Experienced in handling deployments, monitoring, and incident response. Interested in roles focused on SRE, DevOps, cloud infrastructure, or cybersecurity, where I can leverage my expertise to enhance operational efficiency and security.
 
 ## 🎓 Education	  		
-- **M.Sc.**, Cloud, Security & Infrastructure expert	| <a href="https://www.ynov.com/formations/informatique/mastere-expert-en-cloud-securite-infrastructure" target="_blank">Lyon Ynov</a> (_SEP 2021 - SEP 2024_)
-- **M.Sc.**, Cybersecurity expert	| <a href="https://www.ynov.com/formations/cybersecurite/mastere-consultant-en-cybersecurite" target="_blank">Lyon Ynov</a> (_SEP 2021 - SEP 2024_)        		
-- **HND** , Digital systems in IT and networks  | <a>High school Edouard Branly Lyon </a> (_AUG 2018 - SEP 2021_)     
+<ul class="education-list">
+  <li>
+    <span class="title">
+      <a href="https://www.ynov.com/formations/informatique/mastere-expert-en-cloud-securite-infrastructure" target="_blank">M.Sc., Cloud, Security & Infrastructure expert</a>
+    </span>
+    <span class="date">SEP 2021 - SEP 2024</span>
+  </li>
+  <li>
+    <span class="title">
+      <a href="https://www.ynov.com/formations/cybersecurite/mastere-consultant-en-cybersecurite" target="_blank">M.Sc., Cybersecurity expert</a>
+    </span>
+    <span class="date">SEP 2021 - SEP 2024</span>
+  </li>
+  <li>
+    <span class="title">
+      HND, Digital systems in IT and networks
+    </span>
+    <span class="date">AUG 2018 - SEP 2021</span>
+  </li>
+</ul>
 
 ## 💼 Work experience 
 **SRE / IT application manager @<a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
@@ -17,22 +34,39 @@ As an Application Manager/DevOps and System Engineer at Worldline, I was respons
 **Responsibilities**:
 
 - **Infrastructure Management**:
+  - Established and upheld secure IT infrastructures, encompassing both physical and virtual
+ servers, containers, and networks In a cluster of more than 100 virtual servers. 
   - Setup, optimization, and maintenance of IT infrastructures including physical and virtual servers, containers, network equipment, and storage arrays.
   - Integration of green IT into processes.
+  - Directed incident response efforts for critical systems, effectively minimizing downtime and
+ mitigating risks. 
 
 - **Automation and CI/CD**:
-  - Improvement of CI/CD processes.
+  -  Designed and sustained CI/CD pipelines with a secure SDLC utilizing GitLab and reduced
+ deployment failures by 40% and deployment time by 60%. 
   - Use of automation tools such as Ansible and Chef compliance.
+  - Improving code deployment frequency by 25% and enhancing version control practices.
+  - Automated deployment processes and configuration management through Terraform and
+ Ansible, achieving a 35% reduction in server provisioning times.
 
 - **Monitoring and Supervision**:
   - Management of monitoring, supervision, log management, and ticketing tools such as ELK, Grafana, Zabbix, Jira, and ITSM to ensure efficient and reliable system operations.
-
+  - Implemented and supervised monitoring solutions such as ELK, Grafana, and Zabbix leading to
+ a 10% improvement in incident response times and post-incident analysis
+ 
 - **Collaboration and Support**:
   - Working closely with a team of experienced engineers.
   - Providing turnkey solutions for clients.
+  - Authored comprehensive documentation that helped cut down onboarding time for new team
+ members by 30%.
 
 - **Operating Systems**:
   - Use of operating systems such as Redhat/CentOS.
+  
+- **Security**
+  - Conducted vulnerability patching and remediation for Linux systems and containerized
+ environments, reducing the number of vulnerability by 60%
+
 
 **Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2018 - September 2021)**
 
