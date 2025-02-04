@@ -1,5 +1,5 @@
-# SRE & DevOps 
-### _Current Position - SRE - Worldline_ 
+# SRE & DevSecOps 
+### _Current Position - Looking for a opportunity wordlwide_ 
 
 #### Summary: 
 Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cybersecurity with 3 years of experience as a Site Reliability Engineer (SRE). Proficient in DevOps practices, cloud computing, infrastructure management, and cybersecurity. Skilled in automation, system performance optimization, and implementing secure, scalable systems. Experienced in handling deployments, monitoring, and incident response. Interested in roles focused on SRE, DevOps, cloud infrastructure, or cybersecurity, where I can leverage my expertise to enhance operational efficiency and security.

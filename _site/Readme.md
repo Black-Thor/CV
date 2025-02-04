@@ -1,5 +1,5 @@
-# SRE & DevOps 
-### _Current Position - SRE - Worldline_ 
+# SRE & DevSecOps 
+### _Current Position - Looking for a opportunity wordlwide_ 
 
 #### Summary: 
 Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cybersecurity with 3 years of experience as a Site Reliability Engineer (SRE). Proficient in DevOps practices, cloud computing, infrastructure management, and cybersecurity. Skilled in automation, system performance optimization, and implementing secure, scalable systems. Experienced in handling deployments, monitoring, and incident response. Interested in roles focused on SRE, DevOps, cloud infrastructure, or cybersecurity, where I can leverage my expertise to enhance operational efficiency and security.
@@ -66,6 +66,12 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
 - **Operating Systems**:
   - Use of operating systems such as Redhat/CentOS.
   
+<<<<<<< HEAD
+- **Security**
+  - Conducted vulnerability patching and remediation for Linux systems and containerized
+ environments, reducing the number of vulnerability by 60%
+
+=======
 - **Security**:
   - Conducted vulnerability patching and remediation for Linux systems and containerized
  environments, reducing the number of vulnerability by 60%
@@ -74,6 +80,7 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
 - **Infrastructure Migration**: 
   - Led the successful migration of six applications from CentOS 7 to Red Hat 8, ensuring minimal downtime and seamless transition.
   - Planned and organized the migration of a key project to Google Cloud Platform (GCP), optimizing resource allocation and enhancing scalability.
+>>>>>>> 8554134 (Fix : Alignement des dates des diplômes)
 
 **Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2018 - September 2021)**
 
