@@ -4,6 +4,8 @@ logo: flower.png # Use a relative path to logo image
 
 description: SRE
 
+description: DevSecOps Engineer / SRE 
+mycontact : 'My email: stephane857@live.fr'
 show_downloads: true # Fix spelling
 
 theme: jekyll-theme-minimal
