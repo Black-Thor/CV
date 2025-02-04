@@ -58,20 +58,11 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
   - Providing turnkey solutions for clients.
   - Authored comprehensive documentation that helped cut down onboarding time for new team
  members by 30%.
-<<<<<<< HEAD
-=======
   - Insure communication with our client and their devellopement teams. 
->>>>>>> 8554134 (Fix : Alignement des dates des diplômes)
 
 - **Operating Systems**:
   - Use of operating systems such as Redhat/CentOS.
   
-<<<<<<< HEAD
-- **Security**
-  - Conducted vulnerability patching and remediation for Linux systems and containerized
- environments, reducing the number of vulnerability by 60%
-
-=======
 - **Security**:
   - Conducted vulnerability patching and remediation for Linux systems and containerized
  environments, reducing the number of vulnerability by 60%
@@ -80,7 +71,6 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
 - **Infrastructure Migration**: 
   - Led the successful migration of six applications from CentOS 7 to Red Hat 8, ensuring minimal downtime and seamless transition.
   - Planned and organized the migration of a key project to Google Cloud Platform (GCP), optimizing resource allocation and enhancing scalability.
->>>>>>> 8554134 (Fix : Alignement des dates des diplômes)
 
 **Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2018 - September 2021)**
 
