@@ -63,7 +63,7 @@ This experience has allowed me to develop deep expertise in managing complex inf
   ) / ![SAST](https://img.shields.io/badge/SAST-004680?style=for-the-badge&logo=SAST&logoColor=white)
 
 #### Certification 
-<script src="https://tryhackme.com/badge/188166"></script>
+<img src="https://tryhackme-badges.s3.amazonaws.com/Thr.png" alt="Your Image Badge" />
 
 
 <img class="badge" src="https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png">
