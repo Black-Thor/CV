@@ -10,7 +10,7 @@
 This experience has allowed me to develop deep expertise in managing complex infrastructures and optimizing automated processes while ensuring the reliability and efficiency of IT systems for various clients.
 
 
-#### Technical Skills:
+## Technical Skills:
 - Programming Languages , Automation and Scripting: 
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -62,19 +62,28 @@ This experience has allowed me to develop deep expertise in managing complex inf
   - ![DAST](https://img.shields.io/badge/DAST-blue?style=for-the-badge
   ) / ![SAST](https://img.shields.io/badge/SAST-004680?style=for-the-badge&logo=SAST&logoColor=white)
 
-#### Certification 
+## Certification 
+
+### Badge
+<img class="badge" src="https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png">
+<img class="badge" src="https://images.credly.com/size/128x128/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png">
+<img class="badge" src="https://images.credly.com/size/680x680/images/4251ab91-6d67-47da-801c-855c0bbc6cc3/blob">
+<img class="badge" src="https://images.credly.com/size/680x680/images/c2d44375-6567-495a-b868-d17828c62872/blob">
+<img class="badge" src="https://images.credly.com/size/680x680/images/e51a8579-188d-4363-8ed1-12ad164ef57b/blob">
+<img class="badge" src="https://images.credly.com/size/680x680/images/a08cf90b-9838-4f6c-82bd-8db85fb89dd5/blob">
+<img class="badge" src="https://images.credly.com/size/680x680/images/f5095707-7683-4886-940c-3e8e4a2085ca/blob">
+<img class="badge" src="https://images.credly.com/size/680x680/images/3b1b42e6-dfc2-492b-90df-8058096cb93d/blob">
+
+####  <a href="https://www.credly.com/users/stephane-duboze"> More on Credly
+
+### Cybersecurity
+
 <div>
 <iframe style="border: 0; width:100%;  overflow: auto;" src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=188166" ></iframe>
 </div>
 
+### Udemy 
+<img style="border: 0; width:50%;  overflow: auto;" src="./assets/img/Udemy/linux_security_basics.png">
 
-<img class="badge" src="https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/eba18772-5ecf-471b-b8af-dda79815b544/image.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/9358115e-ead7-47c2-91e2-165b6a650a1b/image.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/5bf37709-4b69-4cdc-9edc-af7b3370d427/image.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/01c3b0d4-a225-483b-a762-460473658c1a/image.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/80845928-d1f8-4549-ae9d-27676fba897e/image.png">
-<img class="badge" src="https://images.credly.com/size/128x128/images/6f135924-7645-4bd2-ab68-3bc0b49c7e27/image.png">
-
-## <a href="https://www.credly.com/users/stephane-duboze"> More on Credly
+### Linkedin 
+<embed src="./assets/img/Linkedin/expert_en_DevOps.pdf" width="500px" height="430px"/>
