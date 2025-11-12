@@ -27,6 +27,35 @@ Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cyb
 </ul>
 
 ## 💼 Work experience 
+
+**IT application manager @<a href="https://group.bnpparibas/" target="_blank">BNP Paribas - Belgium</a> (June 2025 - On Going)**
+
+As an IT Application Manager, I was responsible for ensuring the reliability, performance, and security of internal business applications in a production environment.  
+My work focused on automation, observability, and lifecycle management to maintain operational excellence and continuous service availability.
+
+**Responsibilities**:
+
+- **Application Support & Maintenance**:  
+  - Provided operational support and ensured smooth running of production applications.  
+  - Monitored and troubleshooted application issues using **Batch**, **Shell**, **GraphTalk**, and **Talend**.  
+  - Performed data corrections and extractions directly in production using **Oracle SQL**, **GraphTalk AIA**, and **MS Access**.
+
+- **Automation & Deployment**:  
+  - Automated deployment pipelines and patch management using **Ansible**, reducing manual interventions and improving reliability.  
+  - Streamlined repetitive operational tasks and enhanced productivity through automation.
+
+- **Monitoring & Observability**:  
+  - Designed and implemented **dashboards** to improve system observability and performance visibility.  
+  - Established performance indicators to support proactive incident management.
+
+- **Obsolescence & Vulnerability Management**:  
+  - Managed software lifecycle, ensuring updates and security compliance for internal applications.  
+  - Updated and maintained IT assets in the configuration management system to track obsolescence levels.
+
+- **Process Optimization & Project Automation**:  
+  - Developed automated workflows for project and task management using **Power Automate** and **Microsoft Planner**.  
+  - Delivered maintainable and scalable automation solutions to support production teams.
+
 **SRE / IT application manager @<a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
 
 As an Site Reliability Engineer at Worldline, I was responsible for managing infrastructures and turnkey solutions for several key clients of the company, including the Legal and Administrative Information Department, the Administrative and Financial Services Department, and the public service concession Bloctel for the Directorate General for Competition, Consumer Affairs, and Fraud Control.
@@ -41,23 +70,20 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
   - Directed incident response efforts for critical systems, effectively minimizing downtime and mitigating risks. 
 
 - **Automation and CI/CD**:
-  -  Designed and sustained CI/CD pipelines with a secure SDLC utilizing GitLab and reduced
+  -  Designed and sustained CI/CD pipelines with a secure SDLC utilizing **GitLab** and reduced
  deployment failures by 40% and deployment time by 60%. 
-  - Use of automation tools such as Ansible and Chef compliance.
+  - Use of automation tools such as **Ansible** and **Chef compliance**.
   - Improving code deployment frequency by 25% and enhancing version control practices.
-  - Automated deployment processes and configuration management through Terraform and
- Ansible, achieving a 35% reduction in server provisioning times.
+  - Automated deployment processes and configuration management through **Terraform** and  **Ansible**, achieving a 35% reduction in server provisioning times.
 
 - **Monitoring and Supervision**:
-  - Management of monitoring, supervision, log management, and ticketing tools such as ELK, Grafana, Zabbix, Jira, and ITSM to ensure efficient and reliable system operations.
-  - Implemented and supervised monitoring solutions such as ELK, Grafana, and Zabbix leading to
- a 10% improvement in incident response times and post-incident analysis
+  - Management of monitoring, supervision, log management, and ticketing tools such as **ELK**, **Grafana**, **Zabbix**, **Jira**, and ITSM to ensure efficient and reliable system operations.
+  - Implemented and supervised monitoring solutions leading to a 10% improvement in incident response times and post-incident analysis
  
 - **Collaboration and Support**:
   - Working closely with a team of experienced engineers.
   - Providing turnkey solutions for clients.
-  - Authored comprehensive documentation that helped cut down onboarding time for new team
- members by 30%.
+  - Authored comprehensive documentation that helped cut down onboarding time for new team members by 30%.
   - Insure communication with our client and their devellopement teams. 
 
 - **Operating Systems**:
@@ -69,8 +95,8 @@ As an Site Reliability Engineer at Worldline, I was responsible for managing inf
   - Conducted regular security assessments and implemented remediation strategies to maintain robust and secure IT environments.
   
 - **Infrastructure Migration**: 
-  - Led the successful migration of six applications from CentOS 7 to Red Hat 8, ensuring minimal downtime and seamless transition.
-  - Planned and organized the migration of a key project to Google Cloud Platform (GCP), optimizing resource allocation and enhancing scalability.
+  - Led the successful migration of six applications from **CentOS 7** to **Red Hat 8**, ensuring minimal downtime and seamless transition.
+  - Planned and organized the migration of a key project to **Google Cloud Platform (GCP)**, optimizing resource allocation and enhancing scalability.
 
 **Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (August 2018 - September 2021)**
 
