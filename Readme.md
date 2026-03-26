@@ -1,5 +1,5 @@
 # SRE & DevSecOps 
-### _Technical Application Manager @ BNP Cardif — Open to new opportunities worldwide_ 
+### _Application support engineer @ BNP Cardif — Open to new opportunities worldwide_ 
 
 #### Summary: 
 Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cybersecurity with 6 years of experience as a Site Reliability Engineer (SRE) and DevSecOps Engineer. Proficient in DevOps practices, cloud computing, infrastructure management, and cybersecurity. Skilled in automation, system performance optimization, and implementing secure, scalable systems. Experienced in handling deployments, monitoring, and incident response. Interested in roles focused on SRE, DevOps, cloud infrastructure, or cybersecurity, where I can leverage my expertise to enhance operational efficiency and security.
@@ -28,9 +28,9 @@ Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cyb
 
 ## 💼 Work experience 
 
-**Technical Application Manager @<a href="https://group.bnpparibas/" target="_blank">BNP Cardif</a> — Belgium / Netherlands (July 2025 - June 2026)**
+**<span class="project-role">Application Production Engineer</span> <a href="https://group.bnpparibas/" target="_blank">BNP Cardif</a> — Belgium / Netherlands (July 2025 - June 2026)**
 
-As a Technical Application Manager at BNP Cardif, I was responsible for ensuring the reliability, performance, and security of internal business applications in a production environment.  
+As a Application support engineer at BNP Cardif, I was responsible for ensuring the reliability, performance, and security of internal business applications in a production environment.  
 My work focused on automation, observability, and lifecycle management to maintain operational excellence and continuous service availability.
 
 **Responsibilities**:
@@ -60,7 +60,7 @@ My work focused on automation, observability, and lifecycle management to mainta
   - Developed automated workflows for project and task management using **Power Automate** and **Microsoft Planner**.  
   - Delivered maintainable and scalable automation solutions to support production teams.
 
-**SRE / IT application manager @<a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
+**<span class="project-role">Site Reliability Engineer</span> <a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
 
 As a Site Reliability Engineer at Worldline, I was responsible for managing infrastructures and turnkey solutions for several key clients of the company, including the Legal and Administrative Information Department, the Administrative and Financial Services Department, and the public service concession Bloctel for the Directorate General for Competition, Consumer Affairs, and Fraud Control.
 
@@ -96,7 +96,7 @@ As a Site Reliability Engineer at Worldline, I was responsible for managing infr
   - Led the successful migration of six applications from **CentOS 7** to **Red Hat 8**, ensuring minimal downtime and seamless transition.
   - Planned and organized the migration of a key project to **Google Cloud Platform (GCP)**, optimizing resource allocation and enhancing scalability.
 
-**Full Stack Developer and Technical Project Manager @<a href="https://www.enedis.fr/" target="_blank">Enedis </a> (September 2019 - September 2021)**
+**<span class="project-role">Full Stack Developer</span> <a href="https://www.enedis.fr/" target="_blank">Enedis </a> (September 2019 - September 2021)**
 
 As a Full Stack Developer and Technical Project Manager at Enedis (formerly ERDF), I was responsible for the design and implementation of various technical solutions to improve the company's operational efficiency and modernize its infrastructure.
 
