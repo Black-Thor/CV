@@ -1,83 +1,192 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: "en-US" }}" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" type="image/png" href="assets/flower.png">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+  {% seo %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta name="author" content="Stéphane Duboze">
+  <meta name="robots" content="index, follow">
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Stéphane Duboze",
+    "jobTitle": "DevSecOps Engineer / Site Reliability Engineer",
+    "url": "https://devops-by-stephane.fr",
+    "email": "stephane.duboze@gmail.com",
+    "image": "https://devops-by-stephane.fr/assets/flower.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/st%C3%A9phane-duboze/",
+      "https://github.com/Black-Thor",
+      "https://www.credly.com/users/stephane-duboze"
+    ],
+    "knowsAbout": [
+      "DevOps","SRE","Site Reliability Engineering","Kubernetes","Terraform",
+      "Ansible","GitLab CI","Cybersecurity","Cloud Infrastructure","DevSecOps"
+    ],
+    "knowsLanguage": ["French","English","Mandarin"],
+    "alumniOf": { "@type": "EducationalOrganization", "name": "YNOV France" }
+  }
+  </script>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+  <!-- Apply saved theme BEFORE paint to avoid flash -->
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
 
-        <p>{{ site.mycontact }}</p>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/flower.png' | relative_url }}">
+</head>
+<body>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+  <div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-        
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="https://black-thor.github.io/devsecops-docu/">View my documentation <small>Black-Thor/devsecops-docu</small></a></p>
-        {% endif %}
+  <div class="site-wrapper">
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+    <!-- ═══ SIDEBAR ═══ -->
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Site navigation">
+      <div class="sidebar-inner">
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+        <div class="profile">
+          <div class="profile-avatar">
+            <img src="{{ '/assets/flower.png' | relative_url }}" alt="Stéphane Duboze" width="58" height="58">
+          </div>
+          <h1 class="profile-name">
+            <a href="{{ '/' | absolute_url }}">{{ site.title | default: "Stéphane D." }}</a>
+          </h1>
+          <p class="profile-title">
+            <span class="prompt" aria-hidden="true">$ </span><span>{{ site.description | default: "DevSecOps / SRE" }}</span><span class="cursor" aria-hidden="true">▋</span>
+          </p>
+          <p class="profile-location">
+            <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Brussels, Belgium
+          </p>
+        </div>
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          {% if page.url == "/Project.html" %}
-          <li> <a href="./">View On <strong>Resume</strong></a></li>
-          {% else %}
-          <li> <a href="./Project.html">View On <strong>Project</strong></a></li>
+        <div class="contact-block">
+          {% if site.email %}
+          <a href="mailto:{{ site.email }}" class="contact-item">
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+            {{ site.email }}
+          </a>
           {% endif %}
-          {% if page.url == "/Skills.html" %}
-          <li> <a href="./">View On <strong>Resume</strong></a></li>
-          {% else %}
-          <li><a href="./Skills.html">View On <strong>skills</strong></a></li>
-          {% endif %}
-          <li><a href="https://www.linkedin.com/in/st%C3%A9phane-duboze/">View On <strong>Linkedin</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>      
-      <section>
+          <a href="https://www.linkedin.com/in/st%C3%A9phane-duboze/" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Black-Thor" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="https://black-thor.github.io/devsecops-docu/" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            Docs
+          </a>
+        </div>
 
-      {{ content }}
+        <nav class="site-nav">
+          <a href="{{ '/' | absolute_url }}" class="nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+            <span class="nav-num" aria-hidden="true">01</span>
+            <span>Resume</span>
+          </a>
+          <a href="{{ '/Project.html' | relative_url }}" class="nav-item {% if page.url == '/Project.html' %}active{% endif %}">
+            <span class="nav-num" aria-hidden="true">02</span>
+            <span>Projects</span>
+          </a>
+          <a href="{{ '/Skills.html' | relative_url }}" class="nav-item {% if page.url == '/Skills.html' %}active{% endif %}">
+            <span class="nav-num" aria-hidden="true">03</span>
+            <span>Skills</span>
+          </a>
+        </nav>
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+        <div class="sidebar-footer">
+          <!-- Theme toggle -->
+          <button class="btn-theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark theme">
+            <span class="theme-icon theme-icon--dark">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </span>
+            <span class="theme-icon theme-icon--light">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </span>
+            <span class="theme-label theme-label--dark">Light mode</span>
+            <span class="theme-label theme-label--light">Dark mode</span>
+          </button>
+
+          <!-- CV Download — put your PDF at /assets/DUBOZE_Stephane_Resume.pdf in your repo -->
+          <a href="{{ '/assets/DUBOZE_Stephane_Resume.pdf' | relative_url }}"
+             class="btn-download"
+             download="DUBOZE_Stephane_Resume.pdf"
+             aria-label="Download CV as PDF">
+            <svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- ═══ MOBILE HEADER ═══ -->
+    <header class="mobile-header" role="banner">
+      <button class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidebar">
+        <span></span><span></span><span></span>
+      </button>
+      <span class="mobile-title">{{ site.title | default: "Stéphane D." }}</span>
+      <div class="mobile-actions">
+        <button class="mobile-theme-btn" onclick="toggleTheme()" aria-label="Toggle theme">
+          <span class="theme-icon theme-icon--dark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+          <span class="theme-icon theme-icon--light"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
+        </button>
+        <a href="https://www.linkedin.com/in/st%C3%A9phane-duboze/" class="mobile-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- ═══ MAIN CONTENT ═══ -->
+    <main class="main-content" id="main" role="main">
+      <div class="content-inner">
+        {{ content }}
+      </div>
+    </main>
+
+  </div>
+
+  <script>
+    function toggleTheme() {
+      var html = document.documentElement;
+      var next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+    function toggleNav() {
+      var sidebar = document.getElementById('sidebar');
+      var overlay = document.getElementById('navOverlay');
+      var btn     = document.getElementById('hamburger');
+      var open    = sidebar.classList.toggle('open');
+      overlay.classList.toggle('active', open);
+      btn.setAttribute('aria-expanded', open);
+    }
+    function closeNav() {
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('navOverlay').classList.remove('active');
+      document.getElementById('hamburger').setAttribute('aria-expanded', 'false');
+    }
+    document.querySelectorAll('.nav-item').forEach(function(el) {
+      el.addEventListener('click', function() { if (window.innerWidth < 769) closeNav(); });
+    });
+  </script>
+
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
 </html>
