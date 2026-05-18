@@ -71,7 +71,8 @@ As a Site Reliability Engineer at Worldline, I was responsible for managing infr
   - Setup, optimization, and maintenance of IT infrastructures including physical and virtual servers, containers, network equipment, and storage arrays.
   - Successfully executed a lift-and-shift migration of **50+ VMs** on-premise with minimal downtime.
   - Integration of green IT into our team processes.
-  - Directed incident response efforts for critical systems, effectively minimizing downtime and mitigating risks. 
+  - Directed incident response efforts for critical systems, effectively minimizing downtime and mitigating risks.
+  - Maintained and scaled an **OpenShift-based platform** across multiple **Kubernetes** pods, leveraging **Helm charts** for streamlined deployment and **lifecycle management**.
 
 - **Automation and CI/CD**:
   - Designed and sustained CI/CD pipelines with a secure SDLC utilizing **GitLab CI**, reducing deployment failures by 40% and deployment time by 60%. 
