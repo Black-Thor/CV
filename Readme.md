@@ -2,19 +2,21 @@
 ### _Application support engineer @ BNP Cardif — Open to new opportunities worldwide_ 
 
 #### Summary: 
-Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cybersecurity with 6 years of experience as a Site Reliability Engineer (SRE) and DevSecOps Engineer. Proficient in DevOps practices, cloud computing, infrastructure management, and cybersecurity. Skilled in automation, system performance optimization, and implementing secure, scalable systems. Experienced in handling deployments, monitoring, and incident response. Interested in roles focused on SRE, DevOps, cloud infrastructure, or cybersecurity, where I can leverage my expertise to enhance operational efficiency and security.
+Master’s degree in Cloud, Security & Infrastructure and a Master’s degree in Cybersecurity, with 6 years of experience in DevSecOps Engineering. 
+
+Skilled in automation, performance optimization and the design of secure, scalable and resilient systems. Experienced in managing deployments, monitoring production environments and leading incident response to ensure high availability and operational excellence.
 
 ## 🎓 Education	  		
 <ul class="education-list">
   <li>
     <span class="title">
-      <a href="https://www.ynov.com/formations/informatique/mastere-expert-en-cloud-securite-infrastructure" target="_blank">M.Sc., Cloud, Security & Infrastructure expert</a>
+      <a href="https://www.ynov.com/formations/informatique/mastere-expert-en-cloud-securite-infrastructure" target="_blank">M.Sc. in  Cloud, Security & Infrastructure expert</a>
     </span>
     <span class="date">SEP 2021 - SEP 2024</span>
   </li>
   <li>
     <span class="title">
-      <a href="https://www.ynov.com/formations/cybersecurite/mastere-consultant-en-cybersecurite" target="_blank">M.Sc., Cybersecurity expert</a>
+      <a href="https://www.ynov.com/formations/cybersecurite/mastere-consultant-en-cybersecurite" target="_blank">M.Sc. in Cybersecurity expert</a>
     </span>
     <span class="date">SEP 2021 - SEP 2024</span>
   </li>
@@ -28,17 +30,16 @@ Master's degree in Cloud, Security & Infrastructure and a Master's degree in Cyb
 
 ## 💼 Work experience 
 
-**<span class="project-role">Application Production Engineer</span> <a href="https://group.bnpparibas/" target="_blank">BNP Cardif</a> — Belgium / Netherlands (July 2025 - June 2026)**
+**<span class="project-role">DevOps / Production Engineer</span> <a href="https://group.bnpparibas/" target="_blank">BNP Cardif</a> — Belgium / Netherlands (July 2025 - June 2026)**
 
-As a Application support engineer at BNP Cardif, I was responsible for ensuring the reliability, performance, and security of internal business applications in a production environment.  
-My work focused on automation, observability, and lifecycle management to maintain operational excellence and continuous service availability.
+As a DevOps / Production Engineerr at BNP Cardif, I was responsible for ensuring the reliability, performance and security of internal business applications in a production environment. My work focused on automation, observability and lifecycle management to maintain operational excellence and continuous service availability.
 
 **Responsibilities**:
 
 - **Application Support & Maintenance**:  
   - Provided operational support and ensured smooth running of production applications.  
-  - Monitored and troubleshot application issues using **Batch**, **Shell**, **GraphTalk**, and **Talend**.  
-  - Performed data corrections and extractions directly in production using **Oracle SQL**, **GraphTalk AIA**, and **MS Access**, ensuring data integrity across critical systems.
+  - Monitored and troubleshot application issues using **Batch**, **Shell**, **GraphTalk**, **Talend**.  
+  - Performed data corrections and extractions directly in production using **Oracle SQL**, **GraphTalk AIA**, **MS Access**, ensuring data integrity across critical systems.
 
 - **Automation & Deployment**:  
   - Automated 30% of recurring manual operational tasks using **Ansible** and **Power Automate**, reducing processing time by 35% and improving overall team efficiency.
@@ -60,15 +61,17 @@ My work focused on automation, observability, and lifecycle management to mainta
   - Developed automated workflows for project and task management using **Power Automate** and **Microsoft Planner**.  
   - Delivered maintainable and scalable automation solutions to support production teams.
 
-**<span class="project-role">Site Reliability Engineer</span> <a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
+**<span class="project-role">DevOps / Production Engineer</span> <a href="https://worldline.com/fr-fr/home" target="_blank">Worldline</a> (September 2021 - September 2024)**
 
-As a Site Reliability Engineer at Worldline, I was responsible for managing infrastructures and turnkey solutions for several key clients of the company, including the Legal and Administrative Information Department, the Administrative and Financial Services Department, and the public service concession Bloctel for the Directorate General for Competition, Consumer Affairs, and Fraud Control.
+As a DevOps / Production Engineerat Worldline, I was responsible for managing infrastructures and turnkey solutions for several key clients of the company.
+
+Including the Legal and Administrative Information Department, the Administrative and Financial Services Department and the public service concession Bloctel for the Directorate General for Competition, Consumer Affairs and Fraud Control.
 
 **Responsibilities**:
 
 - **Infrastructure Management**:
   - Managed on-premises infrastructure across **100+ VMs** in a **SecNumCloud** environment.
-  - Setup, optimization, and maintenance of IT infrastructures including physical and virtual servers, containers, network equipment, and storage arrays.
+  - Setup, optimization and maintenance of IT infrastructures including physical and virtual servers, containers, network equipment and storage arrays.
   - Successfully executed a lift-and-shift migration of **50+ VMs** on-premise with minimal downtime.
   - Integration of green IT into our team processes.
   - Directed incident response efforts for critical systems, effectively minimizing downtime and mitigating risks.
